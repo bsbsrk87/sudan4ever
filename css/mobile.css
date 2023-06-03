@@ -1,0 +1,281 @@
+   /* navbar*/
+   
+   .l-heading {
+       font-size: 2rem;
+       font-weight: bold;
+   }
+   
+   .lead {
+       font-size: 1.2rem;
+       font-weight: bold;
+   }
+   
+   #about .about-content {
+       display: block;
+       text-align: center;
+   }
+   
+   #about .about-content img {
+       width: 73vw;
+       margin: 1rem 0 0 0;
+   }
+   
+   #city .city-boxes {
+       display: block;
+   }
+   
+   #contact {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .l-heading {
+       font-size: 1.5rem;
+   }
+   
+   .m-heading {
+       font-size: 2rem;
+   }
+   
+   .btn1 {
+       font-size: 1rem;
+       color: white;
+       padding: 10px 20px;
+       font-weight: bold;
+       max-width: 100px;
+       text-align: center;
+   }
+   
+   .btn1:hover {
+       color: #ffffff;
+       padding: .3rem 1.5rem;
+       background-color: #ff2e63;
+       border-radius: 5px;
+       text-align: center;
+   }
+   
+   #bg-site {
+       width: 100vw;
+   }
+   
+   #about {
+       width: 100vw;
+   }
+   
+   #cta .cta-content {
+       width: 100vw;
+   }
+   
+   #navbar {
+       display: flex;
+       flex-direction: column;
+       position: sticky;
+       top: 0;
+       z-index: 1;
+       width: 100vw;
+   }
+   
+   #navbar ul li a {
+       font-size: 10px;
+       font-weight: bold;
+   }
+   
+   #navbar ul {
+       margin-top: 20px;
+       margin-right: 15px
+   }
+   
+   #navbar ul li a:hover {
+       background-color: transparent;
+       color: aqua;
+   }
+   
+   #city .city-boxes .city-box p {
+       font-size: 1.3rem;
+       margin: 10px 10px;
+       text-indent: 15px;
+       max-height: 220px;
+       overflow: auto;
+   }
+   
+   .footer {
+       width: 100vw;
+       height: 150px;
+       margin-top: 2px;
+       position: relative;
+       font-size: 1rem;
+   }
+   
+   .footer a img {
+       width: 85px;
+       padding: 0 25px;
+       transition: all .5s;
+   }
+   
+   .footer a #f-b {
+       width: 104px;
+   }
+   
+   .footer a #y-t {
+       width: 94px;
+   }
+   
+   .footer .media {
+       position: absolute;
+       top: 0;
+   }
+   
+   .footer a img:hover {
+       transform: scale(1.2);
+   }
+   
+   .footer h2 {
+       font-size: 1.8rem;
+       position: absolute;
+       bottom: 10px;
+       color: black;
+       text-shadow: 0 0 8px black;
+   }
+   
+   footer a img {
+       padding: 0 25px;
+       transition: all .5s;
+   }
+   
+   .footer a #f-b {
+       width: 105px;
+   }
+   
+   .footer a #y-t {
+       width: 93px;
+   }
+   
+   .footer .media {
+       margin-right: 15px;
+       position: absolute;
+       top: 30px;
+   }
+   
+   .footer a #w-a {
+       width: 82px;
+   }
+   
+   .footer a img:hover {
+       transform: scale(1.2);
+   }
+   
+   .m-s {
+       display: flex;
+       flex-direction: column;
+       width: 97vw;
+   }
+   
+   .s-l {
+       width: 100%;
+       height: 500px;
+       overflow: scroll;
+       background-color: #252A34;
+       border: 4px solid rgb(14, 13, 13);
+       margin-bottom: 10px;
+       font-size: 15px;
+   }
+   
+   .s-l ol li a {
+       font-size: 12px;
+       font-weight: bold;
+       color: white
+   }
+   
+   .s-r {
+       width: 100vw;
+   }
+   
+   .s-l ol li a:hover {
+       color: rgb(41, 178, 212);
+   }
+   
+   .s-r {
+       display: flex;
+       flex-direction: column;
+       margin: 10px 0;
+       width: 100%;
+       height: 76vh;
+   }
+   
+   .s-r h1 {
+       text-align: center;
+       margin: 5px;
+   }
+   
+   .s-r h2 {
+       text-align: center;
+       margin: 5px;
+   }
+   
+   .s-r h3 {
+       text-align: center;
+       margin: 5px;
+       background-color: cadetblue;
+       font-size: 20p;
+       color: rgb(251, 250, 253);
+   }
+   
+   .s-r h4 {
+       text-align: center;
+       color: red;
+   }
+   
+   .s-r .detitls a {
+       color: crimson;
+       margin-right: 43%;
+       font-size: 15px;
+       font-weight: bold;
+   }
+   
+   .s-r .detitls a:hover {
+       color: rgb(33, 20, 223);
+   }
+   
+   .wk h2 {
+       font-size: 18px;
+   }
+   
+   .wk p {
+       font-size: 15px;
+       margin: 15px 10px;
+   }
+   
+   .ws {
+       width: 97vw;
+   }
+   
+   .ws p {
+       font-size: 15px;
+       max-width: 83vw;
+   }
+   
+   .ws h2 {
+       font-size: 18px;
+   }
+   
+   .ws h3 {
+       font-size: 16px;
+   }
+   
+   .ws ul li {
+       font-size: 14px;
+       margin-right: 38px;
+   }
+   
+   #contact .map {
+       width: 80vw;
+       height: 400px;
+   }
+   
+   #contact .map img {
+       width: 40vh;
+       height: 100%;
+       display: block;
+       margin: auto;
+   }
